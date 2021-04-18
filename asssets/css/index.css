@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: linear-gradient(to top, #dfe9f3 0%, white 100%); */
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+}
+
+section#login {
+    height: 100vh;
+    min-height: 753px;
+    color: black;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+section#login>.head {
+    font-family: 'Nunito', sans-serif;
+    font-size: 5.4rem;
+    font-weight: 600;
+}
+
+section#login>.subhead {
+    font-size: 1.5rem;
+    font-weight: 260;
+    margin: -1rem 0 0.3rem 0;
+}
+
+section#login>.signin {
+    font-size: 1.2rem;
+    font-weight: 450;
+    margin: 0.9rem 0;
+}
+
+section#login>.signin>.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    margin: 0.6rem 0rem;
+}
+
+section#login>.signin>.social-icons>div>button {
+    margin: 0.1rem 0.1rem 0rem 0rem;
+    background-color: rgba(255, 255, 255, 0.8)
+}
+
+section#login>#forminp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section#login>#forminp>.input {
+    height: 3.0rem;
+    width: 27rem;
+    font-size: 1.2rem;
+    margin: 0.1rem 0;
+    padding: 0 0.6rem;
+    border: none;
+    outline: none;
+}
+
+section#login>#forminp>.input:focus {
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+section#login>#forminp>button {
+    margin: 0.4rem 0;
+    height: 3.0rem;
+    width: 27rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #40A57D;
+}
+
+section#login>.reset>.belowinp {
+    display: block;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+section#login>.checkbox {
+    margin: 0.5rem 0.5rem 3.0rem 0.5rem;
+    font-size: medium
+}
+
+section#login>.checkbox>a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 558px) {
+    section#login>#forminp>.input {
+        width: 91vw;
+    }
+
+    section#login>#forminp>button {
+        width: 91vw;
+    }
+
+    section#login>.checkbox {
+        margin-bottom: 4.5rem;
+        font-size: medium
+    }
+}
+
+@media screen and (max-width: 303px) {
+    body {
+        width: fit-content;
+    }
+}

@@ -8,11 +8,14 @@ body {
     background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
     /* background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section#login {
     /* height: 100vh; */
-    min-height: 753px;
+    /*    min-height: 753px; */
     color: black;
     height: inherit;
     display: flex;
